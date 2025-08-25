@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Promosi Produk</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+  <div class="container mt-5">
+    <div class="card shadow-lg rounded-4">
+      <div class="card-header text-white bg-primary text-center rounded-top-4">
+        <h3 class="mb-0">Form Promosi Produk</h3>
+      </div>
+      <div class="card-body p-4">
+
+        <form action="#" method="post">
+          <div class="mb-3">
+            <label for="namaProduk" class="form-label">KERIPIK TEMPE GENIT</label>
+            <input type="text" class="form-control" id="namaProduk" name="nama_produk" placeholder="Contoh: Keripik Tempe Mbak Kholifah" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="deskripsi" class="form-label">Nikmati Keripik Tempe Genit, camilan premium yang jujur dan alami. Dibuat dengan komposisi sederhana: tempe, tepung beras, dan bumbu rempah pilihan, tanpa tambahan pengawet. Kami memastikan setiap kepingnya renyah sempurna dan kaya rasa, membuktikan bahwa kenikmatan sejati datang dari bahan-bahan terbaik. Sebuah mahakarya dari Pacitan untuk Anda.
+
+Anda bisa menambahkan informasi kontak dan alamat di bawah deskripsi yang Anda pilih. Contohnya:
+
+
+Alamat: Pengkol, Kebondalem, Tegalombo, Pacitan.</label>
+            <textarea class="form-control" id="deskripsi" name="deskripsi" rows="3" placeholder="Tuliskan keunggulan produk..." required></textarea>
+          </div>
+
+          <div class="mb-3">
+            <label for="harga" class="form-label">Harga: Rp 4.000/bungkus
+Isi: 5 kepingan keripik tempe renyah dan gurih.
+Dibuat dengan bahan alami, tanpa pengawet.
+Yuk, segera coba dan rasakan sendiri kelezatannya!</label>
+            <input type="number" class="form-control" id="harga" name="harga" placeholder="Contoh: 15000" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="kontak" class="form-label">Hubungi: Mbak Kholifah (0838 9529 7194)</label>
+            <input type="tel" class="form-control" id="kontak" name="kontak" placeholder="Contoh: 0838xxxxxx" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="gambar" class="form-label">Upload Gambar Produk</label>
+            <input type="file" class="form-control" id="gambar" name="gambar" accept="image/*">
+          </div>
+
+          <div class="text-center">
+            <button type="submit" class="btn btn-success px-4">Kirim Promosi</button>
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
